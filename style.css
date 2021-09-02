@@ -199,7 +199,7 @@ ul {
   background: #ec4c6f;
 }
 .red-bg2 {
-  background: #d83030;
+  background: #ec5050;
 }
 .red-color2 {
   color: #d83030;
@@ -309,7 +309,7 @@ ul {
   background-position: top center;
 }
 .bg12 {
-  background-image: url(assets/images/bg/bg12.jpg);
+  background-image: url(assets/images/about.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -652,11 +652,12 @@ button:focus {
 }
 .readon.banner-style {
   background: #ffffff;
-  color: #228bfd;
+  color: #da5f5f;
+  border: 2px solid #da5f5f;
 }
 .readon.banner-style:hover {
-  background: #f1f6fc;
-  color: #228bfd;
+  background: #db5757;
+  color: #f1f6fc;
 }
 .readon.modify {
   padding: 13px 32px;
@@ -9009,18 +9010,39 @@ body .modal-backdrop {
   color: #fff;
   margin-bottom: 16px;
 }
+.rs-slider.slider5 .slider .content-part1 .s-subtitle,
+.rs-slider.slider5 .slider .content-part3 .s-subtitle,
+.rs-slider.slider5 .slider .content-part5 .s-subtitle {
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.rs-slider.slider5 .slider .content-part2 .s-subtitle,
+.rs-slider.slider5 .slider .content-part4 .s-subtitle {
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: rgb(11, 7, 31);
+  margin-bottom: 20px;
+}
 .rs-slider.slider5 .slider .content-part .sl-title {
-  font-size: 100px;
-  line-height: 100px;
-  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 500;
   margin-bottom: 38px;
   text-transform: uppercase;
   color: #fff;
 }
 .rs-slider.slider5 .slider .content-part .sl-title span {
-  font-size: 80px;
-  line-height: 90px;
-  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 600;
   display: block;
   margin-bottom: 13px;
 }
@@ -9049,13 +9071,32 @@ body .modal-backdrop {
   margin: 0;
 }
 .rs-slider.slider5 .slider.slide1 {
-  background: url(assets/images/slider/h5-sl1.jpg);
+  background: url(assets/images/slider/slide1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.rs-slider.slider5 .slider.slide2 {
+  background: url(assets/images/slider/slide2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.rs-slider.slider5 .slider.slide2 {
-  background: url(assets/images/slider/h5-sl2.jpg);
+.rs-slider.slider5 .slider.slide3 {
+  background: url(assets/images/slider/slide3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.rs-slider.slider5 .slider.slide4 {
+  background: url(assets/images/slider/slide4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.rs-slider.slider5 .slider.slide5 {
+  background: url(assets/images/slider/slide5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -10639,7 +10680,7 @@ body .modal-backdrop {
   top: 0;
 }
 .rs-about.style2:before {
-  background: url(assets/images/about/about5-bg.jpg);
+  background: url(assets/images/just.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -11207,6 +11248,7 @@ body .modal-backdrop {
   line-height: 25px;
   margin-bottom: 10px;
   padding-left: 10px;
+  background-color: #bb3f3f;
   border-left: 5px solid #dfc3b8;
 }
 .rs-services.style6 .services-wrap2 .title {

@@ -2345,12 +2345,12 @@
     padding: 170px 0;
   }
   .rs-slider.slider5 .slider .content-part .sl-title {
-    font-size: 80px;
+    font-size: 40px;
     line-height: 1;
   }
   .rs-slider.slider5 .slider .content-part .sl-title span {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 30px;
+    line-height: 40px;
   }
   .rs-about.style2::before {
     width: 100%;
@@ -3388,12 +3388,12 @@
     padding: 140px 0;
   }
   .rs-slider.slider5 .slider .content-part .sl-title {
-    font-size: 70px;
+    font-size: 50px;
     line-height: 1;
   }
   .rs-slider.slider5 .slider .content-part .sl-title span {
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 35px;
+    line-height: 35px;
   }
   .rs-slider.slider5 .slider .content-part .slider-bottom .readon {
     font-size: 16px;
@@ -3509,7 +3509,7 @@
   .rs-banner.style2 {
     padding: 80px 0 400px;
   }
-  .rs-services.style10 .service-wrap {
+  .rs-services.style10 . {
     padding: 60px 30px 57px;
   }
   .rs-slider.slider10 .slider {
@@ -4148,11 +4148,11 @@
     padding: 100px 0 110px;
   }
   .rs-slider.slider5 .slider .content-part .sl-title span {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 20px;
   }
   .rs-slider.slider5 .slider .content-part .sl-title {
-    font-size: 55px;
+    font-size: 35px;
   }
   .rs-slider.slider6 {
     margin-bottom: 68px;
